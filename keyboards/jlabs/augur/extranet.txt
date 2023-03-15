@@ -1,0 +1,2408 @@
+ok: [NLAMS1RTBOR302] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To ECX-Primary - PG VAR3NLAMS01_TRUNK29\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To SAP-RISE - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.932",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.934",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Utilizar con el Siguente Cloud-Provider con el que haya que conectarse\"",
+            "PORT": "Gi1.938",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To ECX-Secondary - PG VAR3NLAMS01_TRUNK30\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To SAP-RISE - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.933",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.935",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"ROUTE TABLE GLOBAL  - PG VAR3NLAMS01_TRUNK32\"",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To NLAMS1RTBOR101 - LAN - PG VAR3NLAMS01_TRUNK31\"",
+            "PORT": "Gi9",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF SAP-RISE  - LAN\"",
+            "PORT": "Gi9.732",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF DELFI  - LAN\"",
+            "PORT": "Gi9.733",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Utilizar con el Siguente Cloud-Provider con el que haya que conectarse\"",
+            "PORT": "Gi9.735",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo100",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo101",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [ESABZ1RTBOR301] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To ECX-Primary - PG VAR3ABZ01_TRUNK29\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To SAP-RISE - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.932",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.934",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Utilizar con el Siguente Cloud-Provider con el que haya que conectarse\"",
+            "PORT": "Gi1.938",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To ECX-Secondary - PG VAR3ABZ01_TRUNK30\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To SAP-RISE - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.933",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.935",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To ESABZ2RTBOR401 Gi4\"",
+            "PORT": "Gi4",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "ESABZ2RTBOR401_Gi4 - PG VAR3ABZ01_TRUNK18",
+            "PORT": "Gi4.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"ROUTE TABLE GLOBAL  - PG VAR3ABZ01_TRUNK32\"",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"In-band MGMT (GLOBAL)\"",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"Pruebas SAP-RISE - No borrar configuracion\"",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To ESABZ2RTBOR101 - LAN - PG VAR3ABZ01_TRUNK31\"",
+            "PORT": "Gi9",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF SAP-RISE  - LAN\"",
+            "PORT": "Gi9.732",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF DELFI  - LAN\"",
+            "PORT": "Gi9.733",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF SIBS  - LAN\"",
+            "PORT": "Gi9.734",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Utilizar con el Siguente Cloud-Provider con el que haya que conectarse\"",
+            "PORT": "Gi9.735",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "MGMT-OOB",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo101",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-SIBS'",
+            "PORT": "Tu734",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [ESABZ2RTBOR301] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To ESABZ2RTBOR401 Gi4\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To ESABZ2RTBOR401 - PG VAR3ABZ01_VLAN1056\"",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To ESABZ2FWINT BVI  - PG VAR3ABZ01_TRUNK08\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "BAKER_HUGHES-IN",
+            "PORT": "Gi2.700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TO_ESABZ2RTBOR101_Gi6-601",
+            "PORT": "Gi2.701",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi2.702",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "TECHEDGE",
+            "PORT": "Gi2.703",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "RSJV_ABERDEEN - ESABZ2RTBOR101_Gi6.604",
+            "PORT": "Gi2.704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "EFACEC-IN",
+            "PORT": "Gi2.706",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "CGI-IN",
+            "PORT": "Gi2.707",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "SIBS",
+            "PORT": "Gi2.708",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi2.709",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "SMTP_CISCO_DC1-DC2",
+            "PORT": "Gi2.711",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "IECISA_VPN",
+            "PORT": "Gi2.715",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi2.716",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "\"IECISA\"",
+            "PORT": "Gi2.750",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "INV",
+            "PORT": "Gi2.751",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TO_ESABZ2RTBOR101_Gi6-652",
+            "PORT": "Gi2.752",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TO_RT_AGGR_PORTAL_TELEF",
+            "PORT": "Gi2.753",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "BISERVICUS",
+            "PORT": "Gi2.755",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "CLH",
+            "PORT": "Gi2.756",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"SAC\"",
+            "PORT": "Gi2.757",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"BLOOMBERG\"",
+            "PORT": "Gi2.758",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TO_ESABZ2RTBOR101_Gi6-659",
+            "PORT": "Gi2.759",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"EVOLUTIO\"",
+            "PORT": "Gi2.761",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "KUO",
+            "PORT": "Gi2.764",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"CLIENTS P2P/MPLS - PG VAR3ABZ01_TRUNK09\"",
+            "PORT": "Gi3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"IECISA\"",
+            "PORT": "Gi3.950",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "INV",
+            "PORT": "Gi3.951",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"EVERIS\"",
+            "PORT": "Gi3.952",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "TO_PORTAL_TELEF",
+            "PORT": "Gi3.953",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"BISERVICUS\"",
+            "PORT": "Gi3.955",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"CLH\"",
+            "PORT": "Gi3.956",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"SAC\"",
+            "PORT": "Gi3.957",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"BLOOMBERG\"",
+            "PORT": "Gi3.958",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"INDRA_MDP_SAN-FERNANDO\"",
+            "PORT": "Gi3.959",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"INDRA_MDP_INTERXION\"",
+            "PORT": "Gi3.960",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"EVOLUTIO\"",
+            "PORT": "Gi3.961",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"EVOLUTIO\"",
+            "PORT": "Gi3.962",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Mexico_Kuo_Verizon",
+            "PORT": "Gi3.964",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "VARABZ1_TRUNK17",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7.11",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Test_VPN_Cisco",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi9.963",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "\"OOB_To_ESABZ2SWOAC001 - PG VAR3ABZ01_VLAN3550\"",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo611",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Loopback RSJV_ABERDEEN",
+            "PORT": "Lo704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo711",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo961",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-BAKER_HUGHES'",
+            "PORT": "Tu700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-TECHEDGE-MAIN'",
+            "PORT": "Tu703",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'RSJV-ABERDEEN'",
+            "PORT": "Tu704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-EFACEC'",
+            "PORT": "Tu706",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-CGI'",
+            "PORT": "Tu707",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-SIBS'",
+            "PORT": "Tu708",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-TECHEDGE-BGP'",
+            "PORT": "Tu709",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "VPN-IECISA",
+            "PORT": "Tu715",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [NLAMS1RTBOR301] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To NLAMS1RTBOR401 - PG VAR3NLAMS01_VLAN1061\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1.1053",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To NLAMS1FWINT BVI  - PG VAR3NLAMS01_TRUNK08\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TO_NLAMS1RTBOR101_Gi6-601",
+            "PORT": "Gi2.701",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "BASIC CONSULTING NORWAY - NLAMS1RTBOR101_Gi6.602",
+            "PORT": "Gi2.702",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TECHEDGE",
+            "PORT": "Gi2.703",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "RSJV_ABERDEEN - NLAMS1RTBOR101_Gi6.604",
+            "PORT": "Gi2.704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi2.709",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "SMTP_CISCO_DC1-DC2",
+            "PORT": "Gi2.711",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "IECISA_VPN",
+            "PORT": "Gi2.715",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "REPSOL_CRA",
+            "PORT": "Gi2.716",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"CLIENTS P2P/MPLS - PG VAR3NLAMS01_TRUNK09\"",
+            "PORT": "Gi3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "VARABZ1_TRUNK17",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Test_VPN_Cisco",
+            "PORT": "Gi9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"OOB_To_NLAMS1SWOAC001 - PG VAR3NLAMS01_VLAN3550\"",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo611",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Loopback VPN BASIC CONSULTING NORWAY",
+            "PORT": "Lo702",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "TECHEDGE TEST IP - TO BE DELETED UPON TESTING",
+            "PORT": "Lo703",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Loopback RSJV_ABERDEEN",
+            "PORT": "Lo704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo711",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-REPSOL_CRA_Pruebas'",
+            "PORT": "Lo716",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'BASIC CONSULTING NORWAY'",
+            "PORT": "Tu702",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-TECHEDGE-SECONDARY'",
+            "PORT": "Tu703",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'RSJV-ABERDEEN'",
+            "PORT": "Tu704",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-TECHEDGE-BGP'",
+            "PORT": "Tu709",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "VPN-IECISA",
+            "PORT": "Tu715",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-REPSOL_CRA'",
+            "PORT": "Tu716",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [USMIA2RTBOR302] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To ECX-Primary - PG VAR3MIA01_TRUNK29\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.934",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USMIA2RTBOR401 Gi4.1056 - P2P Conexion Internet\"",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To ECX-Secondary - PG VAR3MIA01_TRUNK30\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.935",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "PG VAR3MIA01_TRUNK32",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To USMIA2RTBOR101 - LAN - PG VAR3MIA01_TRUNK31\"",
+            "PORT": "Gi9",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF DELFI  - LAN\"",
+            "PORT": "Gi9.733",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF IHS  - LAN\"",
+            "PORT": "Gi9.747",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo101",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-IHS'",
+            "PORT": "Tu747",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [USCHI1RTBOR301] => {
+    "msg": [
+        {
+            "DESCRIP": "\"PG VAR3CHI01_TRUNK19\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USCHI1RTBOR401 Gi4.1056 - P2P Conexion Internet Extranet\"",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "To USCHI1FWEXT001 - PG VAR3CHI01_TRUNK08\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USCHI1FWEXT01 - VPN GbC_NAMER_Tuneles Ikev2-IpSec_contra_Red_OT_TC\"",
+            "PORT": "Gi2.700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"Test VPN GbC\"",
+            "PORT": "Gi5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "PG VAR3CHI01_TRUNK17",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "OOB",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Tunnel GbC Jicarillas_II'",
+            "PORT": "Tu700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Tunnel GbC Cabo Leones III'",
+            "PORT": "Tu701",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Tunnel to FW ESTRC1FWICS003-04 PDMZ Tres Cantos - GbC_AMER\"",
+            "PORT": "Tu7000",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [SWESMADTCEX01] => {
+    "msg": [
+        {
+            "DESCRIP": "",
+            "PORT": "Vl1",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Fa0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX01 Gi0/0/0 #",
+            "PORT": "Gi1/0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX01 Gi0/0/1 #",
+            "PORT": "Gi1/0/2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# VODAFONE01 #",
+            "PORT": "Gi1/0/3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Mexico_Kuo_Dynasol_Verizon",
+            "PORT": "Gi1/0/5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "METC12_Gi0/0_EE",
+            "PORT": "Gi1/0/6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/10",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# MKT_INV #TH80",
+            "PORT": "Gi1/0/11",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# PROVIDER_BISERVICUS #",
+            "PORT": "Gi1/0/12",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# OMBUS Vlan504#",
+            "PORT": "Gi1/0/13",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# SUMA INDIGO #",
+            "PORT": "Gi1/0/14",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# BLOOMBERG Vlan503#",
+            "PORT": "Gi1/0/15",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# INTERXION_MP_TECNOCOM #TH80",
+            "PORT": "Gi1/0/16",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/17",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# CLH Vlan507#",
+            "PORT": "Gi1/0/18",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/19",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/20",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/21",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/22",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# MKT_EVERIS#",
+            "PORT": "Gi1/0/23",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SAC Vlan513#",
+            "PORT": "Gi1/0/24",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/25",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/26",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/27",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/28",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX01 #",
+            "PORT": "Po1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [USCHI1RTBOR302] => {
+    "msg": [
+        {
+            "DESCRIP": "\"To ECX-Primary - PG VAR3CHI01_TRUNK29\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Primary\"",
+            "PORT": "Gi1.934",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USCHI1RTBOR401 Gi4.1056 - P2P Conexion Internet\"",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To ECX-Secondary - PG VAR3CHI01_TRUNK30\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To DELFI - Azure - Exproute - Secondary\"",
+            "PORT": "Gi2.935",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "PG VAR3CHI01_TRUNK32",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "\"To USCHI1RTBOR101 - LAN - PG VAR3CHI01_TRUNK31\"",
+            "PORT": "Gi9",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF DELFI  - LAN\"",
+            "PORT": "Gi9.733",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"VRF IHS  - LAN\"",
+            "PORT": "Gi9.747",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo101",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'VPN-IHS'",
+            "PORT": "Tu747",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [USMIA2RTBOR301] => {
+    "msg": [
+        {
+            "DESCRIP": "\"PG VAR3MIA01_TRUNK19\"",
+            "PORT": "Gi1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USMIA1RTBOR401 Gi4.1056 - P2P Conexion Internet Extranet\"",
+            "PORT": "Gi1.1056",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USMIA2FWEXT001 - PG VAR3MIA01_TRUNK08\"",
+            "PORT": "Gi2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"To USMIA2FWEXT01 - VPN GbC_NAMER_Tuneles Ikev2-IpSec_contra_Red_OT_TC\"",
+            "PORT": "Gi2.700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "PG VAR3MIA01_TRUNK17",
+            "PORT": "Gi6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "In-band MGMT (GLOBAL)",
+            "PORT": "Gi6.1053",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "OOB",
+            "PORT": "Gi10",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "GLOBAL, Routed",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Public Ip for IpSec Tunnels\"",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Tunnel GbC Jicarillas_II'",
+            "PORT": "Tu700",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Tunnel GbC Cabo Leones III'",
+            "PORT": "Tu701",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "\"Tunnel to FW ESTRC1FWICS003-04 PDMZ Tres Cantos - GbC_AMER\"",
+            "PORT": "Tu7000",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [SWESMADTCEX02] => {
+    "msg": [
+        {
+            "DESCRIP": "",
+            "PORT": "Vl1",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Fa0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX02 Gi0/0/0 #",
+            "PORT": "Gi1/0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX02 Gi0/0/1 #",
+            "PORT": "Gi1/0/2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# VODAFONE02 #",
+            "PORT": "Gi1/0/3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "METC12B_Gi0/0_EE",
+            "PORT": "Gi1/0/6",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/10",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/11",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# PROVIDER_BISERVICUS #",
+            "PORT": "Gi1/0/12",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# OMBUS Vlan504#",
+            "PORT": "Gi1/0/13",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# SUMA INDIGO #",
+            "PORT": "Gi1/0/14",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/15",
+            "PROTOCOL": "down",
+            "STATUS": "down"
+        },
+        {
+            "DESCRIP": "# INTERXION_MP_TECNOCOM #TH80",
+            "PORT": "Gi1/0/16",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/17",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# CLH Vlan507#",
+            "PORT": "Gi1/0/18",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/19",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/20",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/21",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/22",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# MKT_EVERIS#",
+            "PORT": "Gi1/0/23",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# SAC Vlan513#",
+            "PORT": "Gi1/0/24",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/25",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/26",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/27",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi1/0/28",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX02 #",
+            "PORT": "Po1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [SWESMADTCEX03] => {
+    "msg": [
+        {
+            "DESCRIP": "",
+            "PORT": "Vl1",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Fa0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX01 #",
+            "PORT": "Gi0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX04 Gi0/2 #",
+            "PORT": "Gi0/2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX04 Gi0/3 #",
+            "PORT": "Gi0/3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# FWESMADTCEX01 #",
+            "PORT": "Gi0/4",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/6",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/10",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/11",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/12",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/13",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/14",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/15",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/16",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/17",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/18",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/19",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/20",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/21",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/22",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/23",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/24",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/25",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/26",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX01 #",
+            "PORT": "Po3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX04 #",
+            "PORT": "Po4",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# FWESMADTCEX01 #",
+            "PORT": "Po5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [SWESMADTCEX04] => {
+    "msg": [
+        {
+            "DESCRIP": "",
+            "PORT": "Vl1",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Fa0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX02 #",
+            "PORT": "Gi0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX03 Gi0/2 #",
+            "PORT": "Gi0/2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX03 Gi0/3 #",
+            "PORT": "Gi0/3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# FWESMADTCEX02 #",
+            "PORT": "Gi0/4",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/5",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/6",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/7",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/10",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/11",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/12",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/13",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/14",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/15",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/16",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/17",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/18",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/19",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/20",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/21",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/22",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/23",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/24",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/25",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/26",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "# RTESMADTCEX02 #",
+            "PORT": "Po3",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# SWESMADTCEX03 #",
+            "PORT": "Po4",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "# FWESMADTCEX02 #",
+            "PORT": "Po5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [RTUSHOUAZVPN02] => {
+    "msg": [
+        {
+            "DESCRIP": "LINK TO SWUSHOUCODI01 Gi2/0/10",
+            "PORT": "Gi0/0/0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "LINK TO SWUSHOUCODW02 Te5/7",
+            "PORT": "Gi0/0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/0/2",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "LINK TO SWUSHOUCOGESTCOM04 Gi1/0/2",
+            "PORT": "Gi0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Tunnel IP, BGP IP'",
+            "PORT": "Lo0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'Our Public IP'",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "testMiami",
+            "PORT": "Tu999",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "'TO AZURE EAST US 2 (VIRGINIA)'",
+            "PORT": "Tu1001",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "'TO IBM CLOUD'",
+            "PORT": "Tu1002",
+            "PROTOCOL": "down",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Tunel 1 contra Zscaler",
+            "PORT": "Tu100001",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "Tunel 2 contra Zscaler",
+            "PORT": "Tu100002",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        }
+    ]
+}
+ok: [ESACL1RTVPN001] => {
+    "msg": [
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/0/0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/0/1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0/0/2",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Gi0",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Lo1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Po1",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Po1.900",
+            "PROTOCOL": "down",
+            "STATUS": "deleted"
+        },
+        {
+            "DESCRIP": "Internet",
+            "PORT": "Po1.1900",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "acceso Extranet",
+            "PORT": "Po1.1950",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "ATOS S2S",
+            "PORT": "Tu1",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "ACCENTURE S2S",
+            "PORT": "Tu2",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "SOFTEC S2S",
+            "PORT": "Tu3",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "EVERIS S2S",
+            "PORT": "Tu4",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "INNOVA S2S",
+            "PORT": "Tu5",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "CIC S2S",
+            "PORT": "Tu6",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "INDRA S2S",
+            "PORT": "Tu8",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Deloitte S2S",
+            "PORT": "Tu9",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "INTELYGENZ S2S",
+            "PORT": "Tu10",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "KAIROS S2S",
+            "PORT": "Tu11",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "PRODIGITALK S2S",
+            "PORT": "Tu16",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "RANDSTAD S2S",
+            "PORT": "Tu17",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "RICOH S2S",
+            "PORT": "Tu18",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "ATENTO S2S",
+            "PORT": "Tu20",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Artisca S2S",
+            "PORT": "Tu21",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "IPSNORTE S2S",
+            "PORT": "Tu22",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "Bolsan S2S",
+            "PORT": "Tu25",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "SYNTAX S2S",
+            "PORT": "Tu30",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "GSS S2S",
+            "PORT": "Tu32",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "MO2O S2S",
+            "PORT": "Tu33",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "E_AND_Y S2S",
+            "PORT": "Tu34",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "INDRA PTM",
+            "PORT": "Tu36",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        },
+        {
+            "DESCRIP": "ACCENTURE-CANDINA S2S",
+            "PORT": "Tu37",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Tu100001",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Tu100002",
+            "PROTOCOL": "up",
+            "STATUS": "up"
+        },
+        {
+            "DESCRIP": "",
+            "PORT": "Vl1",
+            "PROTOCOL": "down",
+            "STATUS": "admin down"
+        }
+    ]
+}
